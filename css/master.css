@@ -17,5 +17,63 @@
 /* COLORS */
 
 :root{
+    --color-dark: #2c3e50;
+    --color-lightgreen: #1abc9c;
+    --color-grey: #3a546d;
+    --color-bordeaux: #ba4b63;
+    --color-aqua: #1ea4b6;
+    --color-azure: #1c83c1;
+    --color-blue: #0e38b5;
+    --color-beige: #ccb2a3;
+    --color-brown: #140f0f;
+}
 
+
+/* BG */
+
+.ms_bg-dark{background-color: var(--color-dark);}
+.ms_bg-grey{background-color: var(--color-grey);}
+.ms_bg-lightgreen{background-color: var(--color-lightgreen);}
+
+
+
+/* Components */
+
+.ms_separator{
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 3px;
+    margin: 20px 0px;
+}
+
+.ms_separator::after{
+    font: var(--fa-font-solid);
+    content: '\f005';
+    font-size: 1.5rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px 20px;
+}
+
+.ms_separator.separator-dark{
+    background-color: var(--color-dark);
+}
+
+.separator-dark::after{
+    background-color: white;
+    color: var(--color-dark);
+}
+
+
+
+.ms_separator.separator-light{
+    background-color: white;
+}
+
+.separator-light::after{
+    background-color: var(--color-lightgreen);
+    color: white;
 }
