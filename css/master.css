@@ -35,6 +35,14 @@
 .ms_bg-grey{background-color: var(--color-grey);}
 .ms_bg-lightgreen{background-color: var(--color-lightgreen);}
 
+.ms_bg-bordeaux{background-color: var(--color-bordeaux);}
+.ms_bg-aqua{background-color: var(--color-aqua);}
+.ms_bg-azure{background-color: var(--color-azure);}
+.ms_bg-blue{background-color: var(--color-blue);}
+.ms_bg-brown{background-color: var(--color-brown);}
+.ms_bg-beige{background-color: var(--color-beige);}
+
+
 
 
 /* Components */
