@@ -91,3 +91,20 @@
     border: none;
     border-bottom: 1px solid grey;
 }
+
+.card-img-overlay.ms_card_overlay{
+    opacity: 0;
+    background-color: rgba(0, 0, 0, .7);
+    transition: opacity .3s ease;
+}
+
+.card-img-overlay.ms_card_overlay:hover{
+    opacity: 1;
+}
+
+
+.form-group *:focus{
+    border-color: var(--color-lightgreen);
+    box-shadow: none;
+    outline: 0 none;
+}
