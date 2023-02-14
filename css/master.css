@@ -85,3 +85,9 @@
     background-color: var(--color-lightgreen);
     color: white;
 }
+
+
+.ms_form_control{
+    border: none;
+    border-bottom: 1px solid grey;
+}
