@@ -76,7 +76,6 @@
 }
 
 
-
 .ms_separator.separator-light{
     background-color: white;
 }
@@ -87,10 +86,67 @@
 }
 
 
+/* btn */
+
+.ms_btn_circular{
+    width: 40px;
+    height: 40px;
+}
+
+
+.ms_btn_lightgreen{
+    background-color: var(--color-lightgreen);
+    color: white;
+}
+
+.ms_btn_lightgreen:hover{
+    border: 1px solid var(--color-lightgreen);;
+    background-color: transparent;
+    color: var(--color-lightgreen);;
+}
+
+/* link */
+
+
+.nav-link.ms_custom_navlink{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-link.ms_custom_navlink:hover{
+    color: var(--color-lightgreen);
+}
+
+.ms_link_lightgreen{
+    color: var(--color-lightgreen);
+    text-decoration: none;
+}
+
+.ms_link_lightgreen:hover{
+    text-decoration: underline;
+}
+
+/* forms */
+
+.form-group *:focus{
+    border-color: var(--color-lightgreen);
+    box-shadow: none;
+    outline: 0 none;
+}
+
+
+.form-group *{
+    color: var(--color-dark);
+}
+
+
 .ms_form_control{
     border: none;
     border-bottom: 1px solid grey;
 }
+
+/* cards */
 
 .card-img-overlay.ms_card_overlay{
     opacity: 0;
@@ -103,8 +159,5 @@
 }
 
 
-.form-group *:focus{
-    border-color: var(--color-lightgreen);
-    box-shadow: none;
-    outline: 0 none;
-}
+
+

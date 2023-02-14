@@ -20,7 +20,7 @@
             Navbar 
         -->
         <header>
-            <nav class="navbar fixed-top navbar-expand-md ms_bg-dark">
+            <nav class="navbar navbar-dark fixed-top navbar-expand-md ms_bg-dark">
                 <div class="container">
                   <a class="navbar-brand text-light fw-bold" href="#">START BOOTSTRAP</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,13 +29,13 @@
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                       <li class="nav-item">
-                        <a class="nav-link text-uppercase text-light fw-bold" href="#">Portfolio</a>
+                        <a class="nav-link ms_custom_navlink" href="#">Portfolio</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link text-uppercase text-light fw-bold" href="#">About</a>
+                        <a class="nav-link ms_custom_navlink" href="#">About</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link text-uppercase text-light fw-bold" href="#">Contact</a>
+                        <a class="nav-link ms_custom_navlink" href="#">Contact</a>
                       </li>
                     </ul>
                   </div>
@@ -54,7 +54,7 @@
                             <img src="./img/avatar.svg" class="w-25 mb-2" alt="">
                             <h1 class="text-uppercase">Start Bootstrap</h1>
                             <div class="ms_separator separator-light mx-auto"></div>
-                            <div class="ms-subtitle text-uppercase">graphic artist - web designer - illustrator</div>
+                            <div class="ms-subtitle text-uppercase lead">graphic artist - web designer - illustrator</div>
                         </div>
                     </div>
                 </div>
@@ -142,13 +142,20 @@
                     <div class="ms_separator separator-light mx-auto my-3"></div>
                 </div>
 
-                <div class="row text-center text-light">
-                    <div class="col-md-5 col-10 mx-auto text-start">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto saepe voluptatibus possimus facilis, repellendus fuga exercitationem illo mollitia autem explicabo.
+                <div class="row text-center text-light g-0">
+                    <div class="col-md-4 col-lg-5 col-10 mx-auto text-start">
+                        Freelancer is a free bootstrap theme created by Start
+                        Bootstrap. The download includes the complete
+                        source files including HTML, CSS, and JavaScript as
+                        well as optional LESS stylesheets for easy
+                        customization.
                     </div>
 
-                    <div class="col-md-5 col-10 mx-auto text-start pt-5 pt-md-0">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil qui eligendi praesentium nulla totam soluta iste, odio aliquid fugiat?
+                    <div class="col-md-4 col-lg-5 col-10 mx-auto text-start pt-5 pt-md-0">
+                        Whether you're a student looking to showcase your
+                        work, a professional looking to attract clients, or a
+                        graphic artist looking to share your projects, this
+                        template is the perfect starting point!
                     </div>
                 </div>
 
@@ -171,23 +178,26 @@
                     <div class="ms_separator separator-dark mx-auto my-3"></div>
                 </div>
                 <div class="row text-center py-5">
-                    <div class="col-12 col-md-9 mx-auto text-start">
+                    <div class="col-9 col-md-9 mx-auto text-start">
                        
                         <!-- 
                             Form
                         -->
                         <form>
                             <div class="form-group mb-3">
-                              <input type="email" class="p-0 py-2 form-control ms_form_control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <input type="text" class="p-0 py-2 form-control ms_form_control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+                              </div>
+                            <div class="form-group mb-3">
+                              <input type="email" class="p-0 py-2 form-control ms_form_control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
                             </div>
                             <div class="form-group mb-3">
-                              <input type="password" class="p-0 py-2 form-control ms_form_control rounded-0" id="exampleInputPassword1" placeholder="Password">
+                                <input type="text" class="p-0 py-2 form-control ms_form_control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone Number">
                             </div>
                             <div class="form-group mb-3">
-                                <textarea class="p-0 py-2 form-control ms_form_control rounded-0" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                <textarea class="p-0 py-2 form-control ms_form_control rounded-0" placeholder="Message" id="floatingTextarea2" style="height: 100px"></textarea>
                             </div>
 
-                            <button type="submit" class="btn btn-success">Submit</button>
+                            <button type="submit" class="btn ms_btn_lightgreen">Send</button>
                           </form>
 
 
@@ -211,30 +221,30 @@
                 <div class="row text-center py-5 text-light">
                     <div class="col-10 mx-auto col-md-4">
                         <h5 class="text-uppercase">location</h5>
-                        <p>2215 John Daniel Drive Clark, MO 54243</p>
+                        <p>2215 John Daniel Drive Clark, MO <br>54243</p>
                     </div>
 
                     <div class="col-10 mx-auto col-md-4">
                         <h5 class="text-uppercase">around the web</h5>
                         <ul class="list-inline">
                             <li class="list-inline-item">
-                                <button class="btn btn-outline-light rounded-circle"><i class="fa-brands fa-facebook-f"></i></button>
+                                <button class="btn btn-outline-light ms_btn_circular rounded-circle"><i class="fa-brands fa-facebook-f"></i></button>
                             </li>
                             <li class="list-inline-item">
-                                <button class="btn btn-outline-light rounded-circle"><i class="fa-brands fa-google-plus"></i></button>
+                                <button class="btn btn-outline-light ms_btn_circular rounded-circle"><i class="fa-brands fa-google-plus"></i></button>
                             </li>
                             <li class="list-inline-item">
-                                <button class="btn btn-outline-light rounded-circle"><i class="fa-brands fa-twitter"></i></button>
+                                <button class="btn btn-outline-light ms_btn_circular rounded-circle"><i class="fa-brands fa-twitter"></i></button>
                             </li>
                             <li class="list-inline-item">
-                                <button class="btn btn-outline-light rounded-circle"><i class="fa-brands fa-linkedin"></i></button>
+                                <button class="btn btn-outline-light ms_btn_circular rounded-circle"><i class="fa-brands fa-linkedin"></i></button>
                             </li>
                         </ul>
                     </div>
 
                     <div class="col-10 mx-auto col-md-4">
                         <h5 class="text-uppercase">about freelancer</h5>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#" class="link-success text-decoration-none">Start Bootstrap</a>.</p>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#" class="ms_link_lightgreen">Start Bootstrap</a>.</p>
                     </div>
                 </div>
             </div>
