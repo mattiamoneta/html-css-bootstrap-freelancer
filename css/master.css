@@ -150,7 +150,7 @@
 
 .card-img-overlay.ms_card_overlay{
     opacity: 0;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(26, 188, 156, .7);
     transition: opacity .3s ease;
 }
 
@@ -163,7 +163,6 @@
 .w-md-25{
     width: 25%;
 }
-
 
 
 @media screen and (max-width: 768px) {
